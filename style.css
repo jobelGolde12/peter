@@ -1,0 +1,63 @@
+
+*{
+    box-sizing: border-box;
+}
+.header-bg{
+    background: #f5f5f5f5;
+}
+.bi-moon{
+    display: none;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    padding-top: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+#home{
+    background: #222831;
+}
+#about{
+    background: #31363F;
+}
+#contact{
+    background: #76ABAE;
+}
+.text-shadow{
+    text-shadow: 2px 2px 4px #fff;
+}
+.img-container{
+    width: 300px;
+    height: 300px;
+    background: url('peter.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+#footer{
+    height: 50vh;
+}
+#contact i{
+    font-size: 5rem;
+    
+}
+#contact i:hover{
+    color: orange;
+}
+.offcanvas-body a:hover{
+    background: darkorange;
+    color: #fff;
+}
